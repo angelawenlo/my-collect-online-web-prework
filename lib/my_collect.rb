@@ -5,7 +5,7 @@ def my_collect(array)
     i += 1
   end
 
-  my_collect(array).collect do |info|
-  info.upcase
+  my_collect(array).collect do |i|
+  i.upcase
   end
 end
