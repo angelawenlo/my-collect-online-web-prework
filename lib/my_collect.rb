@@ -4,7 +4,6 @@ def my_collect(array)
     yield (array[i])
     i += 1
   end
-end
 
 my_collect(array).collect do |info|
   info.upcase
