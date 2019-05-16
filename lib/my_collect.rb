@@ -4,4 +4,5 @@ while i < array.length
   yield (array[i])
   i += 1
 end
+  my_collect(array).upcase
 end
