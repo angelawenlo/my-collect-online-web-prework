@@ -5,6 +5,5 @@ while i < array.length
   yield (info[i]).upcase
   i += 1
 end
-  yield
 end
 end
